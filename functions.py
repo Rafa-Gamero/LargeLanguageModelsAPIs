@@ -1,7 +1,7 @@
 from huggingface_hub import InferenceClient
 
 # Coloca aquí tu clave API
-client = InferenceClient(api_key="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")
+client = InferenceClient(api_key="YOUR_API_KEY")
 
 def generar_cuento(genero, personajes, tono, final):
     # Crear el mensaje (prompt) que se enviará al modelo
